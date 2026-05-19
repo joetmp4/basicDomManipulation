@@ -16,6 +16,18 @@
       link.textContent = "Mozilla Developer Network";
       link.href = "https://developer.mozilla.org";
 
+      const sect = document.querySelector("section");
+      const p = document.createElement("p");
+
+      p.textContent = "we hope you enjoyed the ride";
+
+      sect.appendChild(p);
+
+      const text = document.createTextNode(" — the premier source for web development knowledge.",);
+
+      const linkPara = document.querySelector("p");
+      linkPara.appendChild(text);
+
     </script>
   </body>
 </html>
